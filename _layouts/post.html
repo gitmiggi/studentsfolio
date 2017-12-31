@@ -1,0 +1,239 @@
+---
+layout: default
+---
+<div class="post">
+
+
+	<article class="post-content" id="view"> 
+
+  {% if page.headline %}
+    <figure class="imgix-lightbox-item headline" data-src="{{ page.headline }}" alt="">
+      <picture>
+          <source media="(min-width: 1280px)" srcset="{{ page.headline }}&w=1200&q=65 1x, {{ page.headline }}&w=1200&dpr=2&q=45 2x">
+          <source media="(min-width: 768px)" srcset="{{ page.headline }}&w=1000&q=65 1x, {{ page.headline }}&w=1000&dpr=2&q=45 2x">
+          <source media="(min-width: 480px)" srcset="{{ page.headline }}&w=800&q=65  1x, {{ page.headline }}&w=800&dpr=2&q=45 2x">
+          <source media="(max-width: 479px)" srcset="{{ page.headline }}&w=480&q=80 1x, {{ page.headline }}&w=480&dpr=2&q=45 2x">
+          <img src="{{ page.headline }}&w=640&q=80" {% if include.caption %} alt="{{ page.title }}" {% endif %}>
+      </picture>
+    </figure>
+	{% endif %}
+
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
+  <ul class="post-info">
+      <li><span class="post-item">Student Name(s)</span><br/>{{ page.studentname }}</li>
+      <li><span class="post-item">Class</span><br/>{{ page.classname }}</li>
+      <li><span class="post-item">School</span><br/>{{ page.school }}, {{ page.activeyear }}</li>
+      <li><span class="post-item">Prompt</span><br/>{{ page.prompt }}</li>
+    </ul>
+  <article class="post-content">
+    {{ content }}
+  </article>
+
+</div>
+<hr>
+
+<div class="page-nav" id="thumbnails">
+  {% if page.next.url %}
+   
+    <a class="prev" href="{{page.next.url}}">
+       <span class="preview"><img src="{{ page.next.thumbnail}}&w=120&h=120&q=100&fit=crop&dpr=2&bg=38D0FF"></span>
+<svg version="1.1"
+     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+     x="0px" y="0px" width="20px" height="44px" viewBox="0 0 20 44" style="enable-background:new 0 0 20 44;" xml:space="preserve">
+<polygon points="0,22 20,0 20,44 "/>
+</svg>
+<small>PREV</small>
+
+</a>
+
+  {% endif %}
+
+  <a href="#" class="page-nav folio-link">
+     <span class="preview"><img src="http://migimages.imgix.net/thumbnails.png?w=120&h=120&q=100&fit=crop&dpr=2&bg=38D0FF"></span>
+    <svg version="1.1"
+         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+         x="0px" y="0px" width="60px" height="44px" viewBox="0 0 60 44" style="enable-background:new 0 0 60 44;" xml:space="preserve">
+        <rect width="12" height="12"/>
+        <rect x="16" width="12" height="12"/>
+        <rect x="32" width="12" height="12"/>
+        <rect x="48" width="12" height="12"/>
+        <rect y="16" width="12" height="12"/>
+        <rect x="16" y="16" width="12" height="12"/>
+        <rect x="32" y="16" width="12" height="12"/>
+        <rect x="48" y="16" width="12" height="12"/>
+        <rect y="32" width="12" height="12"/>
+        <rect x="16" y="32" width="12" height="12"/>
+        <rect x="32" y="32" width="12" height="12"/>
+        <rect x="48" y="32" width="12" height="12"/>
+    </svg>
+
+  </a>
+
+
+  {% if page.previous.url %}
+    <a class="next" href="{{page.previous.url}}">  
+<span class="preview"> <img src="{{ page.previous.thumbnail}}&w=120&h=120&q=100&fit=crop&dpr=2&bg=38D0FF"></span>
+      <small>NEXT</small> 
+
+<svg version="1.1"
+     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+     x="0px" y="0px" width="20px" height="44px" viewBox="0 0 20 44" style="enable-background:new 0 0 20 44;" xml:space="preserve">
+<polygon points="20,22 0,0 0,44 "/>
+</svg>
+</a>
+
+  {% endif %}
+</div>
+
+<section style="text-align:center">
+<section>
+  <nav class="post-list hidden" >
+    {% for post in site.posts %}
+    <div class="project-item" {% if post.accentcolor %} style="background-color:#{{ post.accentcolor }};"{% else %}style="background-color:#1DA9E2;" {% endif %}>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+         {% include project-thumb.html img=post.thumbnail alt=post.thumbdesc %}
+            {% if post.thumbtitle %}<h3>{{ post.thumbtitle }}<br><small>{{ post.thumbdesc }}</small></h3>
+            {% else %}<h3>{{ post.title }}<br><small>{{ post.tags }}</small></h3>
+            {% endif %}
+            </a>
+        </div>
+    {% endfor %}
+  </nav>
+<div id="lightbox">
+      <div id="lightbox-next"></div>
+    <div id="lightbox-prev"></div>
+    <div id="lightbox-close"></div>
+    <div id="lightbox-hit"></div>
+    <div id="thumb-loader" class="loading-animation hidden">
+        <div class="loading-nub"></div>
+        <div class="loading-nub"></div>
+        <div class="loading-nub"></div>
+        <div class="loading-nub"></div>
+        <div class="loading-nub"></div>
+    </div>
+
+</div>
+
+<script type="text/javascript" src="https://www.imgix.com/libraries/imgix.js"></script>
+<script>
+var lightbox = document.getElementById('lightbox'),
+    lightboxhit = document.getElementById('lightbox-hit'),
+    loadingani = document.getElementById('thumb-loader'),
+    thumbs = document.getElementsByClassName('imgix-lightbox-item'),
+    currentImage, currentID, imageURL,imgCaption,newCaption,
+    nextButton = document.getElementById('lightbox-next'), 
+    prevButton = document.getElementById('lightbox-prev'),
+    closeButton = document.getElementById('lightbox-close');
+
+function openLightbox() {
+    lightbox.classList.add('visible');
+    loadingani.classList.remove('hidden');
+}
+
+function closeLightbox() {
+    lightbox.classList.remove('visible');
+}
+
+function openItem() {
+    imageURL = this.getAttribute('data-src');
+    imgCaption = this.getAttribute('alt');
+    currentID = this.thumbID;
+    changeLightboxImage();
+}
+
+function nextItem() {
+    if (currentID < thumbs.length - 1) {
+        currentID++;
+    } else {
+        currentID = 0;
+    }
+    imageURL = thumbs[currentID].getAttribute('data-src');
+    imgCaption = thumbs[currentID].getAttribute('alt');
+    changeLightboxImage();
+}
+
+function prevItem() {
+    if (currentID > 0) {
+        currentID--;
+    } else {
+        currentID = thumbs.length - 1;
+    }
+    imageURL = thumbs[currentID].getAttribute('data-src');
+    imgCaption = thumbs[currentID].getAttribute('alt');
+    changeLightboxImage();
+}
+
+function changeLightboxImage() {
+    var newImage;    
+    newImage = document.createElement('img');
+    if(newCaption){
+      lightbox.removeChild(newCaption);
+    }
+    newCaption = document.createElement('p');
+    newCaption.classList.add('lightbox-caption');
+    newCaption.innerHTML = imgCaption;
+    newImage.setAttribute('data-src', imageURL);
+    newImage.classList.add('imgix-lightbox');
+    newImage.addEventListener('click', closeLightbox);
+    loadingani.classList.remove('hidden');
+
+    if (!!currentImage) {
+        lightbox.replaceChild(newImage, currentImage);
+
+    } else {
+        lightbox.appendChild(newImage);
+        
+    }
+
+    if(imgCaption == " "){
+      newCaption.style.display = "none";
+    }
+    lightbox.appendChild(newCaption);
+    
+
+
+
+    currentImage = newImage;
+
+    openLightbox();
+
+    imgix.fluid({
+        fluidClass: 'imgix-lightbox',
+        updateOnResizeDown: true,
+        fitImgTagToContainerHeight: true,
+        fitImgTagToContainerWidth: true,
+        onChangeParamOverride: function() {
+            return {
+                fit: "max",
+                q:"20",
+                dpr:"2",
+                chromasub:"444",
+                fm:"pjpg",
+                format:"auto"
+            }
+        },
+        onLoad: function(el) {
+            loadingani.classList.add('hidden');
+            el.classList.add('fadeIn');
+              }
+    });
+}
+
+lightboxhit.addEventListener('click', closeLightbox);
+nextButton.addEventListener('click', nextItem);
+prevButton.addEventListener('click', prevItem);
+closeButton.addEventListener('click', closeLightbox);
+
+
+for (var i = 0; i < thumbs.length; i++) {
+    thumbs[i].thumbID = i;
+    thumbs[i].addEventListener('click', openItem);
+}
+
+
+</script>
+
+<hr>

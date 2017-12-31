@@ -1,0 +1,23 @@
+---
+layout: default
+title: Miguel A. Cardona Designer & Illustrator
+stub: index
+---
+
+<div class="home">
+
+  <nav class="post-list">
+    {% for post in site.posts %}
+    
+    <div class="project-item" {% if post.accentcolor %} style="background-color:#{{ post.accentcolor }};"{% else %}style="background-color:#1DA9E2;" {% endif %}>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+        {% include project-thumb.html img=post.thumbnail alt=post.thumbdesc %}
+            {% if post.thumbtitle %}<h3>{{ post.thumbtitle }}<br><small>{{ post.thumbdesc }}</small></h3>
+            {% else %}<h3>{{ post.title }}<br><small>{{ post.tags }}</small></h3>
+            {% endif %}
+	        </a>
+		</div>
+    {% endfor %}
+  </nav>
+
+</div>

@@ -1,0 +1,10 @@
+
+
+<picture>
+
+    <source media="(min-width: 480px)" srcset="{{ include.img }}&border=8,fff&w=480&h=360&fit=crop 1x, {{ include.img }}&border=8,fff&w=480&h=360&fit=crop&dpr=2&q=45 2x">
+    <source media="(max-width: 479px)" srcset="{{ include.img }}&border=8,fff&w=420&h=315&fit=crop 1x, {{ include.img }}&border=8,fff&w=480&h=360&fit=crop&dpr=2&q=45 2x">
+    <img  src="{{ include.img }}&border=8,fff&w=420&h=315&fit=crop&q=45" {% if include.alt %} alt="{{ include.alt }}" {% endif %}>
+</picture>
+
+
