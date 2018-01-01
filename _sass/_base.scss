@@ -878,10 +878,14 @@ ul.post-info {
   margin-top:0em;
   margin-left:auto;
   margin-right:auto;
-  margin-bottom:8em;
+  margin-bottom:6em;
   display: block;
   list-style: none;
   padding:0;
+
+  @media screen and (max-width: 600px) {
+   margin-bottom:4em;
+  }
   
   li{
     width:calc(25% - 24px);
@@ -904,6 +908,7 @@ ul.post-info {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 1.2rem;
+    font-family: "Open Sans", "Helvetica", Sans;
   }
 
 }
