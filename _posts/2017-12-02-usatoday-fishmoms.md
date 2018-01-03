@@ -1,15 +1,15 @@
 ---
 layout: post
 title:  "Redesigning the USA Today Lifestyle Newsfeed"
-date:   2017-04-28 09:00:00
+date:   2017-12-01 09:00:00
 tags: design, photography
 headline: http://migimages.imgix.net/interactive/usatoday-fishmoms/usat-iso-comps.jpg?fm=pjpg&h=400&fit=crop&crop=fp&fp-y=.46&auto=format
 thumbnail: http://migimages.imgix.net/interactive/usatoday-fishmoms/usat-iso-comps.jpg?fit=crop&fm=pjpg&q=85&chromasub=444
 thumbtitle: USA Today Mobile - Ethelia Lung, Abbey Lee
-thumbdesc: UX / UI Prototyping, 2017
+thumbdesc: Mobile App Prototyping, 2017
 accentcolor: 4d69eb
 studentname: Ethelia Lung, Abbey Lee
-prompt: USA Today Mobile Lifestyle Feed Redesign
+prompt: USA Today mobile lifestyle news feed redesign
 activeyear: 2017
 classname: New Media Design Interactive III
 school: School of Design, RIT

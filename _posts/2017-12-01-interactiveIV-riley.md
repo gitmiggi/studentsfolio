@@ -37,7 +37,7 @@ school: School of Design, RIT
 </ul>
 
 <figure class="fullsize">
-<video preload="none" poster="http://migimages.imgix.net/interactive/riley-sugar/rileycomp1.jpg?fm=pjpg&w=920&q=35"  playsinline loop src="../../../media/sugar/riley-food.mp4">
+<video preload="none" poster="http://migimages.imgix.net/interactive/riley-sugar/rileycomp1.jpg?fm=pjpg&w=920&q=35"  playsinline autoplay muted loop src="../../../media/sugar/riley-food.mp4">
 	<source src="../../../media/sugar/riley-food.mp4" type="video/mp4">
 </video>
 <figcaption>

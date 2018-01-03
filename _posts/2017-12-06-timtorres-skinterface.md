@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Experimental E-Ink Tattoo Interface"
-date:   2017-05-26 09:00:00
+date:   2017-12-02 09:00:00
 tags: experimental, design, interface
 headline: http://migimages.imgix.net/interactive/tim-skin/tim-intro.png?fm=pjpg&h=400&fit=crop&crop=fp&fp-y=.46&auto=format
 thumbnail: http://migimages.imgix.net/interactive/tim-skin/tim-intro.png?fit=crop&fm=pjpg&q=85&chromasub=444
@@ -22,7 +22,7 @@ school: School of Design, RIT
 Pair this with a handheld stopwatch or wrist watch and an iPod with headphones and you’re left with distractions that impair the quality of a workout.</p>
 
 <figure class="fullsize">
-<video preload="none" poster="http://migimages.imgix.net/interactive/tim-skin/tim-intro.png?fm=pjpg?fm=pjpg&fit=crop&w=920&q=35" autoplay muted loop playsinline src="../../../media/skin/final2.mp4">
+<video preload="none" poster="http://migimages.imgix.net/interactive/tim-skin/tim-intro.png?fm=pjpg?fm=pjpg&fit=crop&w=920&q=35" autoplay muted loop playsinline controls src="../../../media/skin/final2.mp4">
 	<source src="../../../media/skin/final2.mp4" type="video/mp4">
 </video>
 <figcaption>
@@ -31,7 +31,7 @@ Pair this with a handheld stopwatch or wrist watch and an iPod with headphones a
 </figure>
 
 <figure class="fullsize">
-<video preload="none" poster="http://migimages.imgix.net/interactive/tim-skin/poster3.png?fm=pjpg?fm=pjpg&fit=crop&w=920&q=35" autoplay muted loop playsinline src="../../../media/skin/i1_web.mp4">
+<video preload="none" poster="http://migimages.imgix.net/interactive/tim-skin/poster3.png?fm=pjpg?fm=pjpg&fit=crop&w=920&q=35" autoplay muted loop playsinline controls src="../../../media/skin/i1_web.mp4">
 	<source src="../../../media/skin/i1_web.mp4" type="video/mp4">
 </video>
 <figcaption>
@@ -68,7 +68,7 @@ Pair this with a handheld stopwatch or wrist watch and an iPod with headphones a
 	<li>Skin color: All supported</li>
 </ul>
 
-{% include picture.html img="http://migimages.imgix.net/interactive/tim-skin/runner.jpg?fm=pjpg&chromasub=444&h=320&fit=crop&crop=fp&fp-y=.4" alt="Project Deck" %}
+<!-- {% include picture.html img="http://migimages.imgix.net/interactive/tim-skin/runner.jpg?fm=pjpg&chromasub=444&h=320&fit=crop&crop=fp&fp-y=.4" alt="Project Deck" %} -->
 
 <h2>Technology Research</h2>
 <ul class="smalllist">

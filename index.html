@@ -5,8 +5,9 @@ stub: index
 ---
 
 <div class="home">
-
+ <h1 class="page-callout">STUDENT PORTFOLIO</h1>
   <nav class="post-list">
+
     {% for post in site.posts %}
     
     <div class="project-item" {% if post.accentcolor %} style="background-color:#{{ post.accentcolor }};"{% else %}style="background-color:#1DA9E2;" {% endif %}>

@@ -3,11 +3,11 @@ layout: post
 title:  "Airport Wayfinding Mobile App"
 date:   2017-04-28 09:00:00
 tags: design, ux, ui
-headline: http://migimages.imgix.net/interactive/natasha-airport/header.png?fm=pjpg&h=400&fit=crop&crop=fp&fp-y=.46&auto=format
+headline: http://migimages.imgix.net/interactive/natasha-airport/header.png?fm=pjpg&h=400&fit=crop&auto=format
 thumbnail: http://migimages.imgix.net/interactive/natasha-airport/header.png?fit=crop&fm=pjpg&q=85&chromasub=444
 thumbtitle: Airport Mobile App - Natasha Mistry
 thumbdesc: Mobile App Prototype, 2017
-accentcolor: 333333
+accentcolor: 74e5e7
 studentname: Natasha Mistry
 prompt: Design a mobile app to aid a user with real-time data visualation.
 activeyear: 2016
