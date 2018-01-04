@@ -18,5 +18,42 @@ school: School of Design, RIT
 
 <section>
 <p>This is a generic starting paragraph. Please Edit this paragraph to reflect the appropriate content for the student work.</p>
+
+
+<figure class="vertical large">
+<video preload="none" 
+playsinline autoplay muted controls loop src="http://students.miggi.me/media/anchor/Personal-Info-Input_1.mp4">
+	<source src="http://students.miggi.me/media/anchor/Personal-Info-Input_1.mp4" type="video/mp4">
+</video>
+</figure>
+
+<figure class="vertical large">
+<video preload="none" 
+playsinline autoplay muted controls loop src="http://students.miggi.me/media/anchor/Record-Energy_1.mp4">
+	<source src="http://students.miggi.me/media/anchor/Record-Energy_1.mp4" type="video/mp4">
+</video>
+</figure>
+
+<figure class="vertical large">
+<video preload="none" 
+playsinline autoplay muted controls loop src="http://students.miggi.me/media/anchor/Record-Meal_1.mp4">
+	<source src="http://students.miggi.me/media/anchor/Record-Meal_1.mp4" type="video/mp4">
+</video>
+</figure>
+
+<figure class="vertical large">
+<video preload="none" 
+playsinline autoplay muted controls loop src="http://students.miggi.me/media/anchor/Set-Goals_1.mp4">
+	<source src="http://students.miggi.me/media/anchor/Set-Goals_1.mp4" type="video/mp4">
+</video>
+</figure>
+
+<figure class="vertical large">
+<video preload="none" 
+playsinline autoplay muted controls loop src="http://students.miggi.me/media/anchor/View-Health-Log_1.mp4">
+	<source src="http://students.miggi.me/media/anchor/View-Health-Log_1.mp4" type="video/mp4">
+</video>
+</figure>
 </section>
+
 

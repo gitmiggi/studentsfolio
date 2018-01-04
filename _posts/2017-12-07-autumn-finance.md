@@ -19,4 +19,37 @@ school: School of Design, RIT
 <section>
 <p>This is a generic starting paragraph. Please Edit this paragraph to reflect the appropriate content for the student work.</p>
 
-{% include picture.html img="http://migimages.imgix.net/interactive/autumn-bank/beast-mock_up.jpg?fm=pjpg&chromasub=444" alt="Project Deck" %}
+<figure>
+<video preload="none" 
+playsinline autoplay muted controls loop src="http://students.miggi.me/media/reveneu/onboarding_1.mp4">
+	<source src="http://students.miggi.me/media/reveneu/onboarding_1.mp4" type="video/mp4">
+</video>
+</figure>
+
+<figure>
+<video preload="none" 
+playsinline autoplay muted controls loop src="http://students.miggi.me/media/reveneu/edit_1.mp4">
+	<source src="http://students.miggi.me/media/reveneu/edit_1.mp4" type="video/mp4">
+</video>
+</figure>
+
+<figure>
+<video preload="none" 
+playsinline autoplay muted controls loop src="http://students.miggi.me/media/reveneu/explore_1.mp4">
+	<source src="http://students.miggi.me/media/reveneu/explore_1.mp4" type="video/mp4">
+</video>
+</figure>
+
+<figure>
+<video preload="none" 
+playsinline autoplay muted controls loop src="http://students.miggi.me/media/reveneu/make_payment_1.mp4">
+	<source src="http://students.miggi.me/media/reveneu/make_payment_1.mp4" type="video/mp4">
+</video>
+</figure>
+
+<figure>
+<video preload="none" 
+playsinline autoplay muted controls loop src="http://students.miggi.me/media/reveneu/navigate_1.mp4">
+	<source src="http://students.miggi.me/media/reveneu/navigate_1.mp4" type="video/mp4">
+</video>
+</figure>

@@ -20,9 +20,11 @@ school: School of Design, RIT
 <p>Sweet Deceit is an interactive platform that strives to educate users about the effects of sugar and the harm it can have on their body. Through acquired knowledge of sugar, users can apply what they learned to achieve healthier diets and avoidance of sugar.</p>
 <p>We lack nutritional education and disciplined diets. The average American consumes four times more sugar than what is recommended. Dishonesty in the Sugar Association and food labels makes it hard to avoid, as well as a lack of knowledge on the health risks of sugar.</p>
 
+{% include calltoaction.html text="View Project Deck" link="http://migimages.imgix.net/interactive/riley-sugar/sweet-deck.pdf" title="View Project Deck" %}
+
 <figure class="fullsize">
-<video preload="none" poster="http://migimages.imgix.net/interactive/riley-sugar/riley-002.jpg?fm=pjpg&w=920&q=35" playsinline autoplay muted controls loop src="../../../media/sugar/riley-final.mp4">
-	<source src="../../../media/sugar/riley-final.mp4" type="video/mp4">
+<video preload="none" poster="http://migimages.imgix.net/interactive/riley-sugar/riley-002.jpg?fm=pjpg&w=920&q=35" playsinline autoplay muted controls loop src="http://students.miggi.me/media/sugar/riley-final.mp4">
+	<source src="http://students.miggi.me/media/sugar/riley-final.mp4" type="video/mp4">
 </video>
 <figcaption>
 	Completed Interactive Prototype Presentation
@@ -37,8 +39,8 @@ school: School of Design, RIT
 </ul>
 
 <figure class="fullsize">
-<video preload="none" poster="http://migimages.imgix.net/interactive/riley-sugar/rileycomp1.jpg?fm=pjpg&w=920&q=35"  playsinline autoplay muted loop src="../../../media/sugar/riley-food.mp4">
-	<source src="../../../media/sugar/riley-food.mp4" type="video/mp4">
+<video preload="none" poster="http://migimages.imgix.net/interactive/riley-sugar/rileycomp1.jpg?fm=pjpg&w=920&q=35"  playsinline autoplay muted loop src="http://students.miggi.me/media/sugar/riley-food.mp4">
+	<source src="http://students.miggi.me/media/sugar/riley-food.mp4" type="video/mp4">
 </video>
 <figcaption>
 	Augmented Reality Simulation
@@ -50,8 +52,8 @@ school: School of Design, RIT
 <p>Throughout the app, "quick tips" appear to give users solutions to avoid sugar. This includes highlighting false advertising and health claims on packaging as well as different types of sugar that our disguised under different names. </p>
 
 <figure class="fullsize">
-<video preload="none" poster="http://migimages.imgix.net/interactive/riley-sugar/rileycomp2.jpg?fm=pjpg&w=920&q=35&q=40" autoplay playsinline loop src="../../../media/sugar/riley-body.mp4">
-	<source src="../../../media/sugar/riley-body.mp4" type="video/mp4">
+<video preload="none" poster="http://migimages.imgix.net/interactive/riley-sugar/rileycomp2.jpg?fm=pjpg&w=920&q=35&q=40" autoplay playsinline loop src="http://students.miggi.me/media/sugar/riley-body.mp4">
+	<source src="http://students.miggi.me/media/sugar/riley-body.mp4" type="video/mp4">
 </video>
 <figcaption>
 	Data Visualization, Interaction with 3D Models

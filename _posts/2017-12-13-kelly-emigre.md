@@ -19,4 +19,11 @@ school: School of Design, RIT
 <section>
 <p>This is a generic starting paragraph. Please Edit this paragraph to reflect the appropriate content for the student work.</p>
 
-{% include picture.html img="http://migimages.imgix.net/interactive/kelly-emigre/beast-mock_up.jpg?fm=pjpg&chromasub=444" alt="Project Deck" %}
+<figure class="fullsize">
+<video preload="none" 
+playsinline autoplay muted controls loop src="http://students.miggi.me/media/emigre/main.mp4">
+	<source src="http://students.miggi.me/media/emigre/main.mp4" type="video/mp4">
+</video>
+</figure>
+
+</section>

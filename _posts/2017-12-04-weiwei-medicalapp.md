@@ -18,4 +18,55 @@ school: School of Design, RIT
 
 <section>
 <p>This is a generic starting paragraph. Please Edit this paragraph to reflect the appropriate content for the student work.</p>
+
+<figure class="vertical large">
+<video preload="none" 
+playsinline autoplay muted controls loop src="http://students.miggi.me/media/dose/calendar.mp4">
+	<source src="http://students.miggi.me/media/dose/calendar.mp4" type="video/mp4">
+</video>
+</figure>
+
+<figure class="vertical large">
+<video preload="none" 
+playsinline autoplay muted controls loop src="http://students.miggi.me/media/dose/dismiss.mp4">
+	<source src="http://students.miggi.me/media/dose/dismiss.mp4" type="video/mp4">
+</video>
+<video preload="none" 
+playsinline autoplay muted controls loop src="http://students.miggi.me/media/dose/dismiss-multi.mp4">
+	<source src="http://students.miggi.me/media/dose/dismiss-multi.mp4" type="video/mp4">
+</video>
+</figure>
+
+<figure class="vertical large">
+<video preload="none" 
+playsinline autoplay muted controls loop src="http://students.miggi.me/media/dose/swap-page.mp4">
+	<source src="http://students.miggi.me/media/dose/swap-page.mp4" type="video/mp4">
+</video>
+<video preload="none" 
+playsinline autoplay muted controls loop src="http://students.miggi.me/media/dose/swap-user.mp4">
+	<source src="http://students.miggi.me/media/dose/swap-user.mp4" type="video/mp4">
+</video>
+</figure>
+
+<figure class="vertical large">
+<video preload="none" 
+playsinline autoplay muted controls loop src="http://students.miggi.me/media/dose/refill.mp4">
+	<source src="http://students.miggi.me/media/dose/refill.mp4" type="video/mp4">
+</video>
+</figure>
+
+<figure class="vertical large">
+<video preload="none" 
+playsinline autoplay muted controls loop src="http://students.miggi.me/media/dose/metfromin.mp4">
+	<source src="http://students.miggi.me/media/dose/metfromin.mp4" type="video/mp4">
+</video>
+<video preload="none" 
+playsinline autoplay muted controls loop src="http://students.miggi.me/media/dose/enlarge.mp4">
+	<source src="http://students.miggi.me/media/dose/enlarge.mp4" type="video/mp4">
+</video>
+</figure>
+
+
+
+
 </section>

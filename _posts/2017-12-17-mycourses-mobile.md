@@ -18,3 +18,33 @@ school: School of Design, RIT
 
 <section>
 <p>This is a generic starting paragraph. Please Edit this paragraph to reflect the appropriate content for the student work.</p>
+
+<figure>
+<video preload="none" 
+playsinline autoplay muted controls loop src="http://students.miggi.me/media/mycourses-john/all.mp4">
+	<source src="http://students.miggi.me/media/mycourses-john/all.mp4" type="video/mp4">
+</video>
+</figure>
+
+<figure>
+<video preload="none" 
+playsinline autoplay muted controls loop src="http://students.miggi.me/media/mycourses-john/ani1.mp4">
+	<source src="http://students.miggi.me/media/mycourses-john/ani1.mp4" type="video/mp4">
+</video>
+</figure>
+
+<figure>
+<video preload="none" 
+playsinline autoplay muted controls loop src="http://students.miggi.me/media/mycourses-john/ani2.mp4">
+	<source src="http://students.miggi.me/media/mycourses-john/ani2.mp4" type="video/mp4">
+</video>
+</figure>
+
+<figure>
+<video preload="none" 
+playsinline autoplay muted controls loop src="http://students.miggi.me/media/mycourses-john/ani3.mp4">
+	<source src="http://students.miggi.me/media/mycourses-john/ani3.mp4" type="video/mp4">
+</video>
+</figure>
+
+</section>

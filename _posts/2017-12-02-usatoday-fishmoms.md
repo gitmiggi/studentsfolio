@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Redesigning the USA Today Lifestyle Newsfeed"
-date:   2017-12-01 09:00:00
+date:   2017-11-29 09:00:00
 tags: design, photography
 headline: http://migimages.imgix.net/interactive/usatoday-fishmoms/usat-iso-comps.jpg?fm=pjpg&h=400&fit=crop&crop=fp&fp-y=.46&auto=format
 thumbnail: http://migimages.imgix.net/interactive/usatoday-fishmoms/usat-iso-comps.jpg?fit=crop&fm=pjpg&q=85&chromasub=444
@@ -21,6 +21,8 @@ school: School of Design, RIT
 
 <p>We wanted to design a cultural and lifestyle publication that promotes and maintains engagement through an entertaining, interactive media consumption experience, leveraging USA TODAY's existing journalistic reputation.</p>
 
+{% include calltoaction.html text="View Project Deck" link="http://migimages.imgix.net/interactive/usatoday-fishmoms/usatoday-fishmoms-deck.pdf" title="USA Today Process Deck" %}
+<br>
 {% include picture.html img="http://migimages.imgix.net/interactive/usatoday-fishmoms/usa-today.png?fm=jpg&chromasub=444&crop=faces,entropy" alt="All Screens" %}
 <p>Leveraging the trust and journalistic integrity of USA TODAY, create
 a mobile-first culture and lifestyle content solution that resonates
@@ -31,6 +33,7 @@ with a fresh, new audience.</p>
 	<li><strong>Customised Content Sharing</strong> Empower the user to take control over their sharing experience, from the content they share, to how they share it.
 </li>
 </ul>
+
 <h2>Beast Mode, for those on-the-go</h2>
 <p>People no longer read articles fully; they rely on skimming pull quotes and images. Acknowledging your busy context, Beast Mode provides a quick, digestible way to get the gist of your daily news using simple swipe gestures.</p>
 <figure class="vertical large">
@@ -89,8 +92,6 @@ with a fresh, new audience.</p>
 <h2>Process Deck Gallery</h2>
 <p>The presented deck, summarizing all research conducted, sketches, wireframes, and final comps.</p>
 
-
-{% include calltoaction.html text="View Process Deck PDF" link="http://migimages.imgix.net/interactive/usatoday-fishmoms/usatoday-fishmoms-deck.pdf" title="USA Today Process Deck" %}
 
 </section>
 <section class="thumblist">

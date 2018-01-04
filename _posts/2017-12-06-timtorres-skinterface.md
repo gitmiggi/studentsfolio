@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Experimental E-Ink Tattoo Interface"
+title:  "Experimental E-Ink Tattoo Interface Prototype"
 date:   2017-12-02 09:00:00
 tags: experimental, design, interface
 headline: http://migimages.imgix.net/interactive/tim-skin/tim-intro.png?fm=pjpg&h=400&fit=crop&crop=fp&fp-y=.46&auto=format

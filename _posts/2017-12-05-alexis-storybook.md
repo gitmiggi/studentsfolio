@@ -13,6 +13,7 @@ prompt: Storyboard and create a character bible for an interactive children's st
 activeyear: 2017
 classname: New Media Design 
 school: School of Design, RIT
+published: false
 
 ---
 

@@ -19,4 +19,11 @@ school: School of Design, RIT
 <section>
 <p>MyCourses should act like a companion, giving the students support and information they need during each semester. This will be achieved through an ‘Ongoing Onboarding Model’. The focus of the model will not be on teaching the students how to use MyCourses, but to help them progress in their classes and achieve their goals.</p>
 
-{% include picture.html img="http://migimages.imgix.net/interactive/usatoday-fishmoms/beast-mock_up.jpg?fm=pjpg&chromasub=444" alt="Project Deck" %}
+<figure class="vertical large">
+<video preload="none" 
+playsinline autoplay muted controls loop src="http://students.miggi.me/media/mycourses-adi/adi.mp4">
+	<source src="http://students.miggi.me/media/mycourses-adi/adi.mp4" type="video/mp4">
+</video>
+</figure>
+
+</section>

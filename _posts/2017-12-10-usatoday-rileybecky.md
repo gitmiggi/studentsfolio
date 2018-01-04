@@ -19,4 +19,32 @@ school: School of Design, RIT
 <section>
 <p>This is a generic starting paragraph. Please Edit this paragraph to reflect the appropriate content for the student work.</p>
 
+<figure class="fullsize">
+<video preload="none" 
+playsinline autoplay muted controls loop src="http://students.miggi.me/media/usatoday/banner.mp4">
+	<source src="http://students.miggi.me/media/usatoday/banner.mp4" type="video/mp4">
+</video>
+</figure>
+
+<figure class="vertical large">
+<video preload="none" 
+playsinline autoplay muted controls loop src="http://students.miggi.me/media/usatoday/magazine.mp4">
+	<source src="http://students.miggi.me/media/usatoday/magazine.mp4" type="video/mp4">
+</video>
+</figure>
+
+<figure class="vertical large">
+<video preload="none" 
+playsinline autoplay muted controls loop src="http://students.miggi.me/media/usatoday/commenting.mp4">
+	<source src="http://students.miggi.me/media/usatoday/commenting.mp4" type="video/mp4">
+</video>
+</figure>
+
+<figure class="vertical large">
+<video preload="none" 
+playsinline autoplay muted controls loop src="http://students.miggi.me/media/usatoday/share.mp4">
+	<source src="http://students.miggi.me/media/usatoday/share.mp4" type="video/mp4">
+</video>
+</figure>
+
 </section>
