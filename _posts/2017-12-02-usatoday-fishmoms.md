@@ -2,7 +2,8 @@
 layout: post
 title:  "Redesigning the USA Today Lifestyle Newsfeed"
 date:   2017-11-29 09:00:00
-tags: design, photography
+tags: Interactive III, Mobile
+poster: http://migimages.imgix.net/interactive/usatoday-fishmoms/usat-iso-comps.jpg
 headline: http://migimages.imgix.net/interactive/usatoday-fishmoms/usat-iso-comps.jpg?fm=pjpg&h=400&fit=crop&crop=fp&fp-y=.46&auto=format
 thumbnail: http://migimages.imgix.net/interactive/usatoday-fishmoms/usat-iso-comps.jpg?fit=crop&fm=pjpg&q=85&chromasub=444
 thumbtitle: USA Today Mobile - Ethelia Lung, Abbey Lee
@@ -37,19 +38,19 @@ with a fresh, new audience.</p>
 <h2>Beast Mode, for those on-the-go</h2>
 <p>People no longer read articles fully; they rely on skimming pull quotes and images. Acknowledging your busy context, Beast Mode provides a quick, digestible way to get the gist of your daily news using simple swipe gestures.</p>
 <figure class="vertical large">
-	<video preload="none" poster="http://migimages.imgix.net/interactive/usatoday-fishmoms/onboarding.gif?fm=jpg" playsinline loop muted autoplay src="http://migimages.imgix.net/interactive/usatoday-fishmoms/onboarding.gif?fm=mp4">
-	<source src="http://migimages.imgix.net/interactive/usatoday-fishmoms/onboarding.gif?fm=mp4" type="video/mp4">
+	<video preload="none" poster="http://migimages.imgix.net/interactive/usatoday-fishmoms/onboarding.gif?frame=1&fm=jpg" playsinline loop muted autoplay src="http://students.miguelcardona.com/media/usatoday-fishmoms/onboarding.mp4">
+	<source src="http://students.miguelcardona.com/media/usatoday-fishmoms/onboarding.mp4" type="video/mp4">
 </video>
-<video preload="none" poster="http://migimages.imgix.net/interactive/usatoday-fishmoms/beast.gif?fm=jpg" playsinline loop muted autoplay src="http://migimages.imgix.net/interactive/usatoday-fishmoms/beast.gif?fm=mp4">
-	<source src="http://migimages.imgix.net/interactive/usatoday-fishmoms/beast.gif?fm=mp4" type="video/mp4">
+<video preload="none" poster="http://migimages.imgix.net/interactive/usatoday-fishmoms/beast.gif?frame=1&fm=jpg" playsinline loop muted autoplay src="http://students.miguelcardona.com/media/usatoday-fishmoms/beast.mp4">
+	<source src="http://students.miguelcardona.com/media/usatoday-fishmoms/beast.mp4" type="video/mp4">
 </video>
 </figure>
 <h2>Actionable Tooltip, for the Close Reader</h2>
 <p>Some quotes just stand out to us - this generation appreciates the value of cherry-picking quotable snippets. Take control of your reading by handpicking, saving, and sharing what stands out to you.</p>
 
 <figure class="vertical large">
-<video preload="none" poster="http://migimages.imgix.net/interactive/usatoday-fishmoms/highlight-flow.gif?bg=fff&fm=jpg" playsinline loop muted autoplay src="http://migimages.imgix.net/interactive/usatoday-fishmoms/highlight-flow.gif?bg=fff&fm=mp4">
-	<source src="http://migimages.imgix.net/interactive/usatoday-fishmoms/highlight-flow.gif?bg=fff&fm=mp4" type="video/mp4">
+<video preload="none" poster="http://migimages.imgix.net/interactive/usatoday-fishmoms/highlight-flow.gif?frame=1&bg=fff&fm=jpg" playsinline loop muted autoplay src="http://students.miguelcardona.com/media/usatoday-fishmoms/highlight-flow.mp4">
+	<source src="http://students.miguelcardona.com/media/usatoday-fishmoms/highlight-flow.mp4" type="video/mp4">
 </video>
 </figure>
 
@@ -57,11 +58,11 @@ with a fresh, new audience.</p>
 <p>When it comes to consuming articles, we often want the option to file things away for curation or for later reading. Multi-purpose saving gives you the best of both worlds - save the articles that resonate with you by bookmarking instantaneously, or take it a step further and save it to a collection.</p>
 <p>Newsletters are a reliable way to receive new content, but they often clog and clutter the inbox, and the content isn’t personalised to you. USA TODAY LIFE does the searching for you, delivering the top five news articles that you are interested in.</p>
 <figure class="vertical large">
-<video preload="none" poster="http://migimages.imgix.net/interactive/usatoday-fishmoms/bookmark-flow.gif?fm=jpg" playsinline loop muted autoplay src="http://migimages.imgix.net/interactive/usatoday-fishmoms/bookmark-flow.gif?fm=mp4">
-	<source src="http://migimages.imgix.net/interactive/usatoday-fishmoms/bookmark-flow.gif?fm=mp4" type="video/mp4">
+<video preload="none" poster="http://migimages.imgix.net/interactive/usatoday-fishmoms/bookmark-flow.gif?frame=1&fm=jpg" playsinline loop muted autoplay src="http://students.miguelcardona.com/media/usatoday-fishmoms/bookmark-flow.mp4">
+	<source src="http://students.miguelcardona.com/media/usatoday-fishmoms/bookmark-flow.mp4" type="video/mp4">
 </video>
-<video preload="none" poster="http://migimages.imgix.net/interactive/usatoday-fishmoms/newsletter-flow.gif?fm=jpg" playsinline loop muted autoplay src="http://migimages.imgix.net/interactive/usatoday-fishmoms/newsletter-flow.gif?fm=mp4">
-	<source src="http://migimages.imgix.net/interactive/usatoday-fishmoms/newsletter-flow.gif?fm=mp4" type="video/mp4">
+<video preload="none" poster="http://migimages.imgix.net/interactive/usatoday-fishmoms/newsletter-flow.gif?frame=1&fm=jpg" playsinline loop muted autoplay src="http://students.miguelcardona.com/media/usatoday-fishmoms/newsletter-flow.mp4">
+	<source src="http://students.miguelcardona.com/media/usatoday-fishmoms/newsletter-flow.mp4" type="video/mp4">
 </video>
 </figure>
 
@@ -69,14 +70,14 @@ with a fresh, new audience.</p>
 <p>Things we share over social media are a digital representation of ourselves. From text to colours to imagery, we want to empower users in the sharing process by giving them the ability to add a personal touch to the content that will live on their profile.</p>
 
 <figure class="vertical">
-<video preload="none" poster="http://migimages.imgix.net/interactive/usatoday-fishmoms/share-overlays.gif?fm=jpg" playsinline loop muted autoplay src="http://migimages.imgix.net/interactive/usatoday-fishmoms/share-overlays.gif?fm=mp4">
-	<source src="http://migimages.imgix.net/interactive/usatoday-fishmoms/share-overlays.gif?fm=mp4" type="video/mp4">
+<video preload="none" poster="http://migimages.imgix.net/interactive/usatoday-fishmoms/share-overlays.gif?frame=1&fm=jpg" playsinline loop muted autoplay src="http://students.miguelcardona.com/media/usatoday-fishmoms/share-overlays.mp4">
+	<source src="http://students.miguelcardona.com/media/usatoday-fishmoms/share-overlays.mp4" type="video/mp4">
 </video>
-<video preload="none" poster="http://migimages.imgix.net/interactive/usatoday-fishmoms/share-text.gif?fm=jpg" playsinline loop muted autoplay src="http://migimages.imgix.net/interactive/usatoday-fishmoms/share-text.gif?fm=mp4">
-	<source src="http://migimages.imgix.net/interactive/usatoday-fishmoms/share-text.gif?fm=mp4" type="video/mp4">
+<video preload="none" poster="http://migimages.imgix.net/interactive/usatoday-fishmoms/share-text.gif?frame=1&fm=jpg" playsinline loop muted autoplay src="http://students.miguelcardona.com/media/usatoday-fishmoms/share-text.mp4">
+	<source src="http://students.miguelcardona.com/media/usatoday-fishmoms/share-text.mp4" type="video/mp4">
 </video>
-<video preload="none" poster="http://migimages.imgix.net/interactive/usatoday-fishmoms/share-facebook.gif?fm=jpg" playsinline loop muted autoplay src="http://migimages.imgix.net/interactive/usatoday-fishmoms/share-facebook.gif?fm=mp4">
-	<source src="http://migimages.imgix.net/interactive/usatoday-fishmoms/share-facebook.gif?fm=mp4" type="video/mp4">
+<video preload="none" poster="http://migimages.imgix.net/interactive/usatoday-fishmoms/share-facebook.gif?frame=1&fm=jpg" playsinline loop muted autoplay src="http://students.miguelcardona.com/media/usatoday-fishmoms/share-facebook.mp4">
+	<source src="http://students.miguelcardona.com/media/usatoday-fishmoms/share-facebook.mp4" type="video/mp4">
 </video>
 </figure>
 

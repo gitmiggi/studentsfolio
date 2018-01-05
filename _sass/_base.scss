@@ -885,6 +885,9 @@ ul.post-info {
 
   @media screen and (max-width: 600px) {
    margin-bottom:4em;
+    li:nth-child(2n+1){
+    clear:both;
+    }
   }
   
   li{
@@ -903,6 +906,8 @@ ul.post-info {
     }
 
   }
+
+ 
   
   span.post-item{
     text-transform: uppercase;

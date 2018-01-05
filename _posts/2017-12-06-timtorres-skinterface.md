@@ -3,6 +3,7 @@ layout: post
 title:  "Experimental E-Ink Tattoo Interface Prototype"
 date:   2017-12-02 09:00:00
 tags: experimental, design, interface
+poster: http://migimages.imgix.net/interactive/tim-skin/tim-intro.png
 headline: http://migimages.imgix.net/interactive/tim-skin/tim-intro.png?fm=pjpg&h=400&fit=crop&crop=fp&fp-y=.46&auto=format
 thumbnail: http://migimages.imgix.net/interactive/tim-skin/tim-intro.png?fit=crop&fm=pjpg&q=85&chromasub=444
 thumbtitle: E-Ink Interface - Tim Torres
@@ -21,8 +22,10 @@ school: School of Design, RIT
 
 Pair this with a handheld stopwatch or wrist watch and an iPod with headphones and you’re left with distractions that impair the quality of a workout.</p>
 
+{% include calltoaction.html text="View Project Deck" link="http://migimages.imgix.net/interactive/tim-skin/timtorres-deck.pdf" title="View Project Deck" %}
+
 <figure class="fullsize">
-<video preload="none" poster="http://migimages.imgix.net/interactive/tim-skin/tim-intro.png?fm=pjpg?fm=pjpg&fit=crop&w=920&q=35" autoplay muted loop playsinline controls src="../../../media/skin/final2.mp4">
+<video preload="none" poster="{{ page.poster }}?fm=pjpg&w=1074&h=604&fit=crop&blend=dd{{ page.accentcolor }}&bm=normal&sat=-100&q=50" autoplay muted loop playsinline controls src="../../../media/skin/final2.mp4">
 	<source src="../../../media/skin/final2.mp4" type="video/mp4">
 </video>
 <figcaption>
@@ -31,7 +34,7 @@ Pair this with a handheld stopwatch or wrist watch and an iPod with headphones a
 </figure>
 
 <figure class="fullsize">
-<video preload="none" poster="http://migimages.imgix.net/interactive/tim-skin/poster3.png?fm=pjpg?fm=pjpg&fit=crop&w=920&q=35" autoplay muted loop playsinline controls src="../../../media/skin/i1_web.mp4">
+<video preload="none" poster="{{ page.poster }}?fm=pjpg&w=1074&h=604&fit=crop&blend=dd{{ page.accentcolor }}&bm=normal&sat=-100&q=50" autoplay muted loop playsinline controls src="../../../media/skin/i1_web.mp4">
 	<source src="../../../media/skin/i1_web.mp4" type="video/mp4">
 </video>
 <figcaption>
@@ -40,7 +43,7 @@ Pair this with a handheld stopwatch or wrist watch and an iPod with headphones a
 </figure>
 
 <figure class="fullsize">
-<video preload="none" poster="http://migimages.imgix.net/interactive/tim-skin/poster2.png?fm=pjpg?fm=pjpg&fit=crop&w=920&q=35" autoplay muted loop playsinline src="../../../media/skin/final3.mp4">
+<video preload="none" poster="{{ page.poster }}?fm=pjpg&w=1074&h=604&fit=crop&blend=dd{{ page.accentcolor }}&bm=normal&sat=-100&q=50" autoplay muted loop playsinline src="../../../media/skin/final3.mp4">
 	<source src="../../../media/skin/final3.mp4" type="video/mp4">
 </video>
 <figcaption>
@@ -95,7 +98,7 @@ Pair this with a handheld stopwatch or wrist watch and an iPod with headphones a
 <p>Various states and interaction sketches of the proposed app.</p>
 
 <figure>
-<video preload="none" poster="http://migimages.imgix.net/interactive/tim-skin/poster4.png?fm=pjpg?fm=pjpg&fit=crop&w=920&q=35" autoplay muted loop playsinline src="../../../media/skin/i1_detail4.mp4">
+<video preload="none" poster="{{ page.poster }}?fm=pjpg&w=1074&h=604&fit=crop&blend=dd{{ page.accentcolor }}&bm=normal&sat=-100&q=50" autoplay muted loop playsinline src="../../../media/skin/i1_detail4.mp4">
 	<source src="../../../media/skin/i1_detail4.mp4" type="video/mp4">
 </video>
 </figure>

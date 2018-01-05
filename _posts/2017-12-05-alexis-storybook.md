@@ -3,6 +3,7 @@ layout: post
 title:  "Interactive Children's Book"
 date:   2017-05-26 09:00:00
 tags: design, illustration, animation
+poster: http://migimages.imgix.net/interactive/alexis-yoyo/alexis-yoyo1.pn
 headline: http://migimages.imgix.net/interactive/alexis-yoyo/alexis-yoyo1.png?fm=pjpg&h=400&fit=crop&crop=fp&fp-y=1&fp-z=1.55&fp-x=.9&auto=format
 thumbnail: http://migimages.imgix.net/interactive/alexis-yoyo/alexis-yoyo1.png?fit=crop&fm=pjpg&q=85crop=fp&fp-x=1&chromasub=444
 thumbtitle: Interactive Storybook - Alexis Faraut

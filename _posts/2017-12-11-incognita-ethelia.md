@@ -3,6 +3,7 @@ layout: post
 title:  "Incognita: Interactive Persuasion Design & Data Visualization"
 date:   2017-12-03 09:00:00
 tags: design, photography
+poster: http://migimages.imgix.net/interactive/ethelia-incognita/intro.jpeg
 headline: http://migimages.imgix.net/interactive/ethelia-incognita/intro.jpeg?fm=pjpg&h=400&fit=crop&crop=fp&fp-y=.675&auto=format
 thumbnail: http://migimages.imgix.net/interactive/ethelia-incognita/intro.jpeg?fit=crop&fm=pjpg&q=85&chromasub=444&crop=fp&fp-x=.47&fp-y=.56&fp-z=2
 thumbtitle: Incognita - Ethelia Lung
@@ -26,22 +27,25 @@ abject poverty in global major cities by allowing
 users to think about this issue through objective and
 emotional lenses.</p>
 {% include calltoaction.html text="View Project Deck" link="http://migimages.imgix.net/interactive/ethelia-incognita/incognita-deck.pdf" title="View Project Deck" %}
+
 <figure class="fullsize">
-<video preload="none" poster="http://migimages.imgix.net/interactive/ethelia-incognita/poster1.png?fm=pjpg&w=920&q=35" playsinline autoplay muted controls loop src="http://students.miggi.me/media/incognita/lung_incognita1_web.mp4">
-	<source src="http://students.miggi.me/media/incognita/lung_incognita1_web.mp4" type="video/mp4">
-</video>
-<figcaption>
-	Final Animation Demonstrating Interactions
-</figcaption>
-</figure>
-<figure class="fullsize">
-<video preload="none" poster="http://migimages.imgix.net/interactive/ethelia-incognita/poster2.png?fm=pjpg&w=920&q=35" playsinline autoplay muted controls loop src="http://students.miggi.me/media/incognita/lung-incognita2_web.mp4">
-	<source src="http://students.miggi.me/media/incognita/lung-incognita2_web.mp4" type="video/mp4">
+<video preload="none" poster="http://migimages.imgix.net/interactive/ethelia-incognita/poster2.png?fm=pjpg&w=920&q=35" playsinline autoplay controls loop src="http://students.miguelcardona.com/media/incognita/lung-incognita2_web.mp4">
+	<source src="http://students.miguelcardona.com/media/incognita/lung-incognita2_web.mp4" type="video/mp4">
 </video>
 <figcaption>
 	Final Persuasive Presentation
 </figcaption>
 </figure>
+
+<figure class="fullsize">
+<video preload="none" poster="http://migimages.imgix.net/interactive/ethelia-incognita/poster1.png?fm=pjpg&w=920&q=35" playsinline autoplay muted controls loop src="http://students.miguelcardona.com/media/incognita/lung_incognita1_web.mp4">
+	<source src="http://students.miguelcardona.com/media/incognita/lung_incognita1_web.mp4" type="video/mp4">
+</video>
+<figcaption>
+	Final Animation Demonstrating Interactions
+</figcaption>
+</figure>
+
 <h2>Planning</h2>
 <p>The focus of the infographic is on the narrative told. I want users to have is a sense of urgency to contribute to the conversation, by showing the resources and programmes that exist to address such problems. I also want to attract and engage user interest through the use of strategic and pleasing microanimations.</p>
 {% include picture.html img="http://migimages.imgix.net/interactive/ethelia-incognita/interaction.png?fm=pjpg&chromasub=444" alt="Project Deck" %}

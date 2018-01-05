@@ -3,6 +3,7 @@ layout: post
 title:  "Strands: Interactive Poetry Installation Prototype"
 date:   2017-12-05 09:00:00
 tags: design, photography
+poster: http://migimages.imgix.net/interactive/alec-strands/intro.png
 headline: http://migimages.imgix.net/interactive/alec-strands/intro.png?fm=pjpg&h=400&fit=crop&crop=fp&fp-y=.4&auto=format
 thumbnail: http://migimages.imgix.net/interactive/alec-strands/intro.png?fit=crop&fm=pjpg&q=85&chromasub=444
 thumbtitle: Strands - Alec Burns
@@ -19,9 +20,11 @@ school: School of Design, RIT
 <section>
 <p>Strands is an interactive data visualization that reimagines how literature can exist in a modern form. Strands is a large-scale interactive art piece that uses data visualization to create a new way to experience poetry. I established three major goals: to use data as art, to show complex data in an easy to understand way, and to give users seamless control over that data.</p>
 
+{% include calltoaction.html text="View Project Deck" link="http://migimages.imgix.net/interactive/alec-strands/alec-deck.pdf" title="View Project Deck" %}
+
 <figure class="fullsize">
-<video preload="none" poster="http://migimages.imgix.net/interactive/alec-strands/013.png?fm=pjpg&w=920&q=35" playsinline autoplay muted controls loop src="http://students.miggi.me/media/strands/final.mp4">
-	<source src="http://students.miggi.me/media/strands/final.mp4" type="video/mp4">
+<video preload="none" poster="http://migimages.imgix.net/interactive/alec-strands/001.png?fm=pjpg&w=920&q=35" playsinline autoplay controls loop src="http://students.miguelcardona.com/media/strands/final.mp4">
+	<source src="http://students.miguelcardona.com/media/strands/final.mp4" type="video/mp4">
 </video>
 <figcaption>
 	Completed Interactive Prototype Installation Presentation
@@ -32,8 +35,8 @@ school: School of Design, RIT
 <p>Strands surfaces the beauty of the human experience. Strands collects, sorts, categorizes, and visualizes millions of poems that have been created since the invention of the printing press in 1633. </p>
 
 <figure>
-<video preload="none" poster="http://migimages.imgix.net/interactive/alec-strands/001.png?fm=pjpg&w=920&q=35" playsinline autoplay muted loop src="http://students.miggi.me/media/strands/vid1.mp4">
-	<source src="http://students.miggi.me/media/strands/vid1.mp4" type="video/mp4">
+<video preload="none" poster="http://migimages.imgix.net/interactive/alec-strands/001.png?fm=pjpg&w=920&q=35" playsinline autoplay muted loop src="http://students.miguelcardona.com/media/strands/vid1.mp4">
+	<source src="http://students.miguelcardona.com/media/strands/vid1.mp4" type="video/mp4">
 </video>
 </figure>
 
@@ -42,8 +45,8 @@ school: School of Design, RIT
 <p>Progressive disclosure is an interaction design technique that helps maintain the focus of user's attention by reducing clutter, confusion, and cognitive workload. This improves usability by presenting only the minimum data required for the task at hand.</p>
 
 <figure>
-<video preload="none" poster="http://migimages.imgix.net/interactive/alec-strands/014.png?fm=pjpg&w=920&q=35" playsinline autoplay muted loop src="http://students.miggi.me/media/strands/vid2.mp4">
-	<source src="http://students.miggi.me/media/strands/vid2.mp4" type="video/mp4">
+<video preload="none" poster="http://migimages.imgix.net/interactive/alec-strands/014.png?fm=pjpg&w=920&q=35" playsinline autoplay muted loop src="http://students.miguelcardona.com/media/strands/vid2.mp4">
+	<source src="http://students.miguelcardona.com/media/strands/vid2.mp4" type="video/mp4">
 </video>
 </figure>
 
@@ -53,8 +56,8 @@ school: School of Design, RIT
 <p>Embodiment also makes the installation more engaging. The large-scale interactions give user's a sense of physicality. People feel good when they break away from the smaller interactions that we are so used to in our daily life. Joy, presence, and mindfulness, are necessary for an installation.</p>
 
 <figure>
-<video preload="none" poster="http://migimages.imgix.net/interactive/alec-strands/014.png?fm=pjpg&w=920&q=35" playsinline autoplay muted loop src="http://students.miggi.me/media/strands/vid3.mp4">
-	<source src="http://students.miggi.me/media/strands/vid3.mp4" type="video/mp4">
+<video preload="none" poster="http://migimages.imgix.net/interactive/alec-strands/014.png?fm=pjpg&w=920&q=35" playsinline autoplay muted loop src="http://students.miguelcardona.com/media/strands/vid3.mp4">
+	<source src="http://students.miguelcardona.com/media/strands/vid3.mp4" type="video/mp4">
 </video>
 </figure>
 

@@ -2,8 +2,9 @@
 layout: post
 title:  "Dangers of Sugar Consumption Interactive Prototype"
 date:   2017-12-06 09:00:00
+poster: http://migimages.imgix.net/interactive/riley-sugar/riley-001.jpg
 headline: http://migimages.imgix.net/interactive/riley-sugar/riley-001.jpg?fm=pjpg&h=400&fit=crop&crop=entropy&auto=format
-tags: design, ux, interactive IV, student
+tags: Interactive IV, Prototype
 thumbnail: http://migimages.imgix.net/interactive/riley-sugar/riley-002.jpg?fit=crop&fm=pjpg&q=85&chromasub=444&fp-z=2&crop=fp&fp-x=.4
 thumbtitle: Sweet Deceit – Riley Yankowich
 thumbdesc: Interactive Prototype, 2017
@@ -17,14 +18,16 @@ school: School of Design, RIT
 ---
 
 <section>
+
 <p>Sweet Deceit is an interactive platform that strives to educate users about the effects of sugar and the harm it can have on their body. Through acquired knowledge of sugar, users can apply what they learned to achieve healthier diets and avoidance of sugar.</p>
+
 <p>We lack nutritional education and disciplined diets. The average American consumes four times more sugar than what is recommended. Dishonesty in the Sugar Association and food labels makes it hard to avoid, as well as a lack of knowledge on the health risks of sugar.</p>
 
 {% include calltoaction.html text="View Project Deck" link="http://migimages.imgix.net/interactive/riley-sugar/sweet-deck.pdf" title="View Project Deck" %}
 
 <figure class="fullsize">
-<video preload="none" poster="http://migimages.imgix.net/interactive/riley-sugar/riley-002.jpg?fm=pjpg&w=920&q=35" playsinline autoplay muted controls loop src="http://students.miggi.me/media/sugar/riley-final.mp4">
-	<source src="http://students.miggi.me/media/sugar/riley-final.mp4" type="video/mp4">
+<video preload="none" poster="{{ page.poster }}?fm=pjpg&w=1074&h=604&fit=crop&blend=dd{{ page.accentcolor }}&bm=normal&sat=-100&q=50" autoplay playsinline controls loop src="http://students.miguelcardona.com/media/sugar/riley-final.mp4">
+	<source src="http://students.miguelcardona.com/media/sugar/riley-final.mp4" type="video/mp4">
 </video>
 <figcaption>
 	Completed Interactive Prototype Presentation
@@ -32,6 +35,7 @@ school: School of Design, RIT
 </figure>
 
 <h2>Goals</h2>
+<p></p>
 <ul>
 	<li>Create a tool for reflection of personal sugar intake.</li>
 	<li>Provide helpful guidance for future avoidance of sugar.</li>
@@ -39,26 +43,29 @@ school: School of Design, RIT
 </ul>
 
 <figure class="fullsize">
-<video preload="none" poster="http://migimages.imgix.net/interactive/riley-sugar/rileycomp1.jpg?fm=pjpg&w=920&q=35"  playsinline autoplay muted loop src="http://students.miggi.me/media/sugar/riley-food.mp4">
-	<source src="http://students.miggi.me/media/sugar/riley-food.mp4" type="video/mp4">
+<video preload="none" poster="{{ page.poster }}?fm=pjpg&w=1074&h=604&fit=crop&blend=dd{{ page.accentcolor }}&bm=normal&sat=-100&q=50"  controls playsinline autoplay muted loop src="http://students.miguelcardona.com/media/sugar/riley-food.mp4">
+	<source src="http://students.miguelcardona.com/media/sugar/riley-food.mp4" type="video/mp4">
 </video>
 <figcaption>
 	Augmented Reality Simulation
 </figcaption>
 </figure>
+
 <p>The Intake section combines Augmented Reality with touch interactions for a captivating tool for users to calculate their sugar intake. Mimicking a shopping cart flow, users add items to their foods which creates a sum of their daily intake.</p>
 
 {% include picture.html img="http://migimages.imgix.net/interactive/riley-sugar/riley-still.jpg?fm=pjpg&fit=max" caption="Quick Tip Callouts"%}
+
 <p>Throughout the app, "quick tips" appear to give users solutions to avoid sugar. This includes highlighting false advertising and health claims on packaging as well as different types of sugar that our disguised under different names. </p>
 
 <figure class="fullsize">
-<video preload="none" poster="http://migimages.imgix.net/interactive/riley-sugar/rileycomp2.jpg?fm=pjpg&w=920&q=35&q=40" autoplay playsinline loop src="http://students.miggi.me/media/sugar/riley-body.mp4">
-	<source src="http://students.miggi.me/media/sugar/riley-body.mp4" type="video/mp4">
+<video preload="none" poster="{{ page.poster }}?fm=pjpg&w=1074&h=604&fit=crop&blend=dd{{ page.accentcolor }}&bm=normal&sat=-100&q=50" controls autoplay playsinline loop src="http://students.miguelcardona.com/media/sugar/riley-body.mp4">
+	<source src="http://students.miguelcardona.com/media/sugar/riley-body.mp4" type="video/mp4">
 </video>
 <figcaption>
 	Data Visualization, Interaction with 3D Models
 </figcaption>
 </figure>
+
 <p>The Effects section emphasizes the health risks related to sugar. The user can interact with the body through a touch pad and then choose infected areas to see different risks associated with it.</p>
 
 <h2>User Flow</h2>

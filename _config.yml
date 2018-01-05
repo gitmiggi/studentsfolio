@@ -1,8 +1,8 @@
 # Site settings
-title: Miguel Cardona - Students' Work 2005–2018
-email: hello@miguelcardona.com
-description: > # Student work from The Rochester Institute 
-baseurl: "" # the subpath of your site, e.g. /blog
+title: "Miguel Cardona - Students' Work 2005–2018"
+email: "hello@miguelcardona.com"
+description: "Student Work Produced at the Rochester Institute of Technolgoy New Media Program."
+baseurl: "http://students.miguelcardona.com" 
 url: "http://students.miguelcardona.com"
 twitter_username: miggi
 github_username:  gitmiggi

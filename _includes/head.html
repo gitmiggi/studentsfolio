@@ -4,17 +4,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-   <meta property="og:title" content="Miguel A. Cardona Jr. | Student Work">
-    <meta property="og:description" content="Miguel is a Designer & Illustrator living in San Francisco, CA. He is currently the Lead Designer at imgix.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="http://portfolio.miguelcardona.com/">
-    <meta property="og:image" content="http://migimages.imgix.net/id/idlogo.pdf?bm=normal&blend=01A0D1&balph=10&fit=clamp&txtpad=48&fm=png8&w=1200&h=630&fit=clamp">
 
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@miggi">
-    <meta name="twitter:title" content="Miguel A. Cardona Jr. | Student Work">
-    <meta name="twitter:description" content="Miguel is a Professor, Designer, & Illustrator. He currently lives in Rochester, NY and teaches in the New Media Design Program at RIT">
-    <meta name="twitter:image" content="http://migimages.imgix.net/id/idlogo.pdf?txtsize=48&txtalign=center%2Cbottom&txtfont64=QXZlbmlyIE5leHQsQm9sZA&txtclr=fff&w=750&h=560&usm=15&q=100&fm=pjpg&chromasub=444&bm=normal&blend=01A0D1&balph=10&fit=clamp&txtpad=48">
+    <meta content="Miguel A. Cardona Jr. | Students' Work" property="og:site_name">
+    {% if page.title %}
+      <meta content="{{ page.title }}" property="og:title">
+    {% else %}
+      <meta content="Miguel A. Cardona Jr. | Students' Work" property="og:title">
+    {% endif %}
+    {% if page.title %}
+      <meta content="article" property="og:type">
+    {% else %}
+      <meta content="website" property="og:type">
+    {% endif %}
+    {% if page.description %}
+      <meta content="{{ page.thumbtitle }}" property="og:description">
+    {% else %}
+      <meta content="Miguel Cardona is a Professor, Designer, & Illustrator. He currently lives in Rochester, NY and teaches in the New Media Design Program at RIT" property="og:description">
+    {% endif %}
+    {% if page.url %}
+      <meta content="http://students.miguelcardona.com{{ page.url }}" property="og:url">
+    {% endif %}
+    {% if page.date %}
+      <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
+      <meta content="http://students.miguelcardona.com/about/" property="article:author">
+    {% endif %}
+    {% if page.poster %}
+      <meta content="{{ page.poster }}?w=1200&h=630&fit=crop" property="og:image">
+    {% else %}
+      <meta content="http://migimages.imgix.net/interactive/students.jpg?w=1200&h=630&fit=crop&fm=pjpg&q=50" property="og:image">
+    {% endif %}
+    {% if page.tags %}
+      {% for tag in page.tags %}
+      <meta content="{{ tag }}" property="article:tag">
+      {% endfor %}
+    {% endif %}
   
   <link href="http://fonts.googleapis.com/css?family=Merriweather:400&amp;text=PROFESSOR &DESIGNER" rel="stylesheet" type="text/css"> 
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,800|Merriweather:300" rel="stylesheet" type="text/css"> 
